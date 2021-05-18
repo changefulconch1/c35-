@@ -27,12 +27,11 @@ if(keyWentDown(UP_ARROW)){
   writeStock(foodS);
   foodS = foodS-1;
 }
-if(keyWentDown(DOWN_ARROW)){
-  writeStock(foodS);
-  foodS = foodS+1;
-}
-text("note:Press UP_ARROW key to feed Drago Milk",150,50);
-text("food remaining:"+foodS,150,100);
+
+fill("white")
+textSize(18)
+text("Note:Press UP_ARROW key to feed Milk",50,50);
+text("Food remaining:"+foodS,50,100);
 
 }
 
